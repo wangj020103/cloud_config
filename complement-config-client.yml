@@ -15,7 +15,7 @@ server:
   
 ---
 spring: 
-  refreshValue: wangjian
+  refreshValue: wangjian1
   profiles: prod
   application:
     name: complement-config-client
