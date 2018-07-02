@@ -4,16 +4,18 @@ spring:
     
 ---
  
-spring
+spring: 
+  refreshValue: wangjian
   profiles: dev
-  application:
+  application: 
     name: complement-config-client
 
 server: 
   port: 9001
   
 ---
-spring
+spring: 
+  refreshValue: wangjian
   profiles: prod
   application:
     name: complement-config-client
