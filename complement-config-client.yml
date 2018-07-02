@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+    
+---
+spring:
+  cloud:
+    config:
+      profile: dev
+  application:
+    name: complement-config-client
+
+server: 
+  port: 9001
+  
+---
+ 
+spring:
+  cloud:
+    config:
+      profile: prod
+  application:
+    name: complement-config-client
+
+server: 
+  port: 9002
+    
